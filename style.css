@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,li {
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#rotate-words {
+    margin: 200px 0;
+    animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
