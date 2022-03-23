@@ -1,38 +1,67 @@
 <!DOCTYPE html>
 <!-- DOCTYPE É UM DTD -> DOCUMENT TYPE DEFINITION VERSÃO DO HTML -->
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Página básica</title>
 </head>
 
 <body>
-    <header>
-        <!-- tag semântica - cabeçalho e pode ser usar no footer ou na section tbm-->
-        <nav>
-            <ul><!-- Unordered List _ lista sem ordenação-->
-                <li>
-                    <details>
-                        <summary>Java</summary>
-                        <p>Java é uma linguagem altamente tipada</p>
-                    </details>
-                </li> <!-- List-Item -->
-                <li>
-                    <details>   
-                        <summary>Javascript</summary>
-                        <p>Javascript é uma linguagem relativamente facil de entender
-                            pois ela se auto interpreta.
-                        </p>
-                    </details>
-                </li> <!-- List-Item -->
-            </ul>
-        </nav>
+    <div>
 
-    </header>
+        <header>
+            <!-- tag semântica - cabeçalho e pode ser usar no footer ou na section tbm-->
+            <nav>
+                <ul>
+                    <!-- Unordered List _ lista sem ordenação-->
+                    <li>
+                        <!-- List-Item -->
+                        <details>
+                            <summary>Java</summary>
+                            <p>Java é uma linguagem altamente tipada</p>
+                        </details>
+                    </li> <!-- List-Item -->
+                    <li>
+                        <!-- List-Item -->
+                        <details>
+                            <summary>Javascript</summary>
+                            <p>Javascript é uma linguagem relativamente facil de entender
+                                pois ela se auto interpreta.
+                            </p>
+                        </details>
+                    </li> <!-- List-Item -->
+                </ul> <!-- Unordered List _ lista sem ordenação-->
+            </nav>
+        </header>
 
+    </div>
+
+    <section>
+
+
+        <header>
+            <h1>Robôs espaciais</h1>
+            <span style="background-color: rgb(0, 91, 170); color: aqua;">TAG de linha</span>
+            <div style="background-color: blueviolet;">TAG de bloco</div>
+            <div style="background-color: darkblue; color: darkgrey; display: inline;">div de linha</div>
+
+
+        </header>
+
+        <div>
+            <h1>Titulo-1</h1>
+            <h2>Titulo-2</h2>
+            <h3>Titulo-3</h3>
+            <h4>Titulo-4</h4>
+            <h5>Titulo-5</h5>
+            <h6>Titulo-6</h6>
+        </div>
+
+        </section>
 </body>
 
 </html>
