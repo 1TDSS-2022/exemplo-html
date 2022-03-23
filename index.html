@@ -1,20 +1,45 @@
-<!DOCTYPE html><!-- DTD -->
+<!DOCTYPE html> <!-- DTD -->
 <html lang="pt-br" dir="ltr">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,
+         initial-scale=1.0">
         <title>Página Básica</title>
     </head>
+
     <body>
-        <header>
-            <nav>
-                <span>Lista de Linguagens</span><span>L----</span>
-                <ul><!-- Unorderer List(Lista sem Ordenação) -->
-                    <!-- li = o List-Itens-->
-                    <li>Java</li>
-                    <li>C#</li>
-                </ul>
-            </nav>
-        </header>
+        <div style="margin-left: 20%;margin-right: 20%;
+        background-color: bisque;"> <!-- <div> é pra agrupar uma serie de tags -->
+            <header>
+                <nav> <!-- nav, estrutura para navegação, direcionamente, que gera destino -->
+                    <span>Lista de Linguagens</span><span>L----</span>
+                    <ul><!-- Unorderer List(Lista sem Ordenação) -->
+                        <!-- li = o List-Itens-->
+                        <li>Java</li>
+                        <li>C#</li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Demarcar seções de conteudos, bolos, links -->
+            <!-- tag semantica, pq pode por outras dentro delas, tipo um header dentro da section -->
+            <section>
+                <header>
+                    <h1>ROBÔS ESPACIAIS</h1>
+                    <span style="background-color: blue;color:coral">TAG DE LINHA</span> <div
+                    style="background-color: crimson;color:#fff">TAG DE BLOCO</div>
+                    <div style="background-color: darkmagenta;color:#fff;display:
+                    inline;">DIV DE LINHA</div> <!-- Tag de linha, vai ocupar apenas o espaço nescessario sem empurrar ninguem-->
+                    
+                </header>
+                <div>
+                    <h1>Titulo-1</h1>
+                    <h2>Titulo-2</h2>
+                    <h3>Titulo-3</h3>
+                    <h4>Titulo-4</h4>
+                    <h5>Titulo-5</h5>
+                    <h6>Titulo-6</h6>
+                </div>
+            </section>
+        </div>
     </body>
 </html>
