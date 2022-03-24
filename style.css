@@ -1,0 +1,27 @@
+
+li {
+    list-style-type: none;
+  }
+
+details{
+   width: 250px;
+   background: linear-gradient(to right, rgba(0, 0, 0, 0.589), rgba(128, 128, 128, 0.507));
+   color: white;
+   padding: 20px;
+   cursor: pointer;
+   box-shadow: 7px 13px 20px rgb(0 0 0 / 23%);
+}
+
+div {
+    margin-left: 20%;
+    margin-right: 20px;
+    width: 200px;
+    background-color: rgba(12, 9, 9, 0.479);
+    
+}
+
+span{
+    font-weight: bolder;
+    color: blue;
+}
+
